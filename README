@@ -1,0 +1,36 @@
+================================================================================
+ContactMetroClient
+================================================================================
+
+Two weeks ago I installed Windows 8 Release Candidate and Visual Studio 2012 
+Release Candidate. ContactMetroClient is my first Metro Style app written in
+C# and XAML. I do not have a Windows 8 device yet. Since Windows 8 supports 
+mouse and keyboard in addition to touch, I'm developing and testing my Metro
+apps on a laptop running Windows 8.
+
+Included are the following projects:
+	1) ContactBusinessEntities - EF4 generated entities
+	2) ContactDataAccess - EF4 ADO.NET Entity Data Model
+	3) ContactBusinessLogic - Business Rules
+	4) ContactWebService - WCF Service hosted in IIS 8
+	5) ContactCloudWebService - WCF Service hosted in Windows Azure
+	6) ContactWinFormsClient - Access to WCF Service in IIS8 or Windows Azure
+	7) ContactMetroClient - Windows 8 Metro Style App accessing Windows Azure
+	8) Data - SQL Server 2012 Contact Database backup
+	9) Screenshots - from Windows Azure simulator
+	
+This github does not contain any Android code. It's all C#. I've submitted
+a few of the projects in previous githubs but wanted to group all the latest
+code in one place. The Android client still works with the latest code.
+
+ContactMetroClient is based on these Code Project Articles:
+	http://www.codeproject.com/Articles/391783/An-Address-Book-Application-Made-in-MVVM-For-Metro	(Part 1)
+	http://www.codeproject.com/Articles/393037/An-Address-Book-Application-Made-in-MVVM-For-Metro	(Part 2)
+Part 1 is a very good example of the MVVM pattern. It's simple and to the point. 
+Part 2 implements persistence with an XML file.
+I used Part 1 as the MVVM structure for ContactMetroClient but implemented 
+persistence with a Windows Azure WCF Service to a SQL Azure Database.
+
+Screenshots were captured by the Windows Azure simulator in Visual Studio 2012.
+	
+	

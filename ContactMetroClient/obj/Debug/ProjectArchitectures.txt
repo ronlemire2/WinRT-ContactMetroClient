@@ -1,0 +1,1 @@
+C:\Dev\Apps\ContactMetroClient\ContactMetroClient.csproj;neutral

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Service="ContactData.ContactWebService, ContactData" Factory="WebHostingIIS.EventHandlingServiceHostFactory" %>
